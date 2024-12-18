@@ -1,12 +1,13 @@
+import Hero from "./Components/Hero/Hero"
+import Navbar from "./Components/Navbar/Navbar"
 
-import './App.css'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-       <h1>hello</h1>
-    </>
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
   )
 }
 
