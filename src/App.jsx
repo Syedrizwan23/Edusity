@@ -1,3 +1,4 @@
+
 import About from "./Components/About/About";
 import Campus from "./Components/Campus/Campus";
 import Contact from "./Components/Contact/Contact";
@@ -8,7 +9,9 @@ import Programs from "./Components/Programs/Programs";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Title from "./Components/Title/Title";
 
+
 const App = () => {
+  
   return (
     <div>
       <Navbar />
@@ -17,7 +20,7 @@ const App = () => {
       <div className="container">
         <Title subTitle="Our Progrm" title="What We Offer" />
         <Programs />
-        <About />
+        <About  />
         <Title subTitle="Gallery" title="Campus Photos" />
         <Campus />
         <Title subTitle="TESTIMONIALS" title="What Student Says" />
@@ -26,6 +29,7 @@ const App = () => {
         <Contact />
         <Footer/>
       </div>
+      
     </div>
   );
 };
